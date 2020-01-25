@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border-bottom: 1px outset;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  width: 20px;
+ text-align: left;
+}
+.accountsec{
+    font-size: bold;
+ color: skyblue;
+}
+.balsec{
+    font-size: bold;
+ color: red;
+}
+.balsec2{
+    font-size: bold;
+ color:green;
+}
+.balsec{
+    font-size: bold;
+ color: red;
+}
+table#to1 {
+  width: 500px;
+  }
+  th {background-color: #dddddd;}
+  #cahtag{text-align: right;}
+  td#amountfild {text-align: right;}
+  
+  .loadmore {
+  text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h2>Part1 UI Task</h2>
+<div id="accountdetail">
+<table id="to1" style="border: 5px solid skyblue;">
+  <tr>
+    <th>Account</th>
+    <th id="cahtag"><span style="color: skyblue;">^</span>Availabe Cash </br><span>Today's Change</span></th>     
+  </tr>
+  <tr>
+    <td class=""><span class="accountsec">IRA-5200</span></td>
+    <td id="amountfild"><span>$5,763.36</span><br><span class="balsec">-0.08% / $8,916.69</span></td>
+  </tr>
+  <tr>
+    <td><span class="accountsec">AAA-1812</span></td class="accountsec">
+    <td id="amountfild">$2,010,926.10<br><span class="balsec2">+0.21 % /$38.881.63</span></td>
+  </tr>
+  <tr>
+    <td><span class="accountsec">AAA-3810</span></td>
+    <td id="amountfild">$5,763.36<br><span class= "balsec2">+0.07% / $8,916.69</span></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="loadmore"><span class="accountsec">Load More</span></td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
